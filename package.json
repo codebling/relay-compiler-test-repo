@@ -1,0 +1,8 @@
+{
+  "name": "module",
+  "version": "1.0.0",
+  "relay": {
+    "src": "./src/",
+    "schema": "./lib/graphql-schema.gql"
+  }
+}

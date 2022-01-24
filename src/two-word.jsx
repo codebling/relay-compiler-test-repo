@@ -3,9 +3,8 @@ import { graphql, useLazyLoadQuery } from 'react-relay';
 
 const TwoWord = () => {
   const data = useLazyLoadQuery(
-    graphql`query dividendTableQuery {
-      a
-      b
+    graphql`query twoWordQuery {
+      hello
     }`
   );
   
